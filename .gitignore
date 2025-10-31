@@ -1,0 +1,38 @@
+# Ignore vim swap/backup files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore shell history and environment files
+.bash_history
+.zsh_history
+.env
+
+# Ignore backup files
+*.old
+*.backup
+
+# Ignore log files
+*.log
+
+# Ignore Brewfile.lock.json (if generated)
+Brewfile.lock.json
+
+# Ignore tmux and vim backup configs
+vimrc.backup
+tmux.conf.backup
+
+# Ignore other common temp files
+Thumbs.db
+Desktop.ini
+
+# Ignore node_modules just in case
+node_modules/
+system.md
