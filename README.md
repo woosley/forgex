@@ -13,8 +13,13 @@ Currently it can be configured to manage below resource in MacOS computer
    - Vim plugins are managed via `Vundle` 
    - Backup: this tool use `stow` to syslink the `.vimrc` to target stow folder
    - Restore: use stow to syslink the `.vimrc`, first ensure Vundle plugin is installed, then use vundle to install all the plugins
-
-# Backup Folder Structure
+- zsh & its plugins
+   - zsh plugins are managed via `zplug`
+   - Backup: this tool use `stow` to syslink the .zshrc to target stow folder
+   - Restore: use stow to syslink the .zshrc. Do below 2 tasks 1) Ensure oh-my-zsh is installed 2) Ensure zplug is installed by brew. 
+     For plugin installation, zplug should already configured in zshrc to install all plugins so nothing to do 
+    
+[#](#) Backup Folder Structure
 Below is a example backup folder structure , this folder can be version controlled via git and backuped to remote git repo
 
 ```
